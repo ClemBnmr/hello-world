@@ -10,6 +10,15 @@
   background-color: #ecf0f1;
 }
 
+body{
+  text-align: center;
+}
+
+.img_iut{
+  width: 300px;
+  margin: auto;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
   img{
