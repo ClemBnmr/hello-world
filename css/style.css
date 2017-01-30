@@ -9,3 +9,11 @@
 #blanc{
   background-color: #ecf0f1;
 }
+
+@media handheld and (max-width: 480px) {
+
+  img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+    max-width: 100%;
+  }
+
+}
