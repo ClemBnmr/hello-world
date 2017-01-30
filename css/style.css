@@ -10,9 +10,9 @@
   background-color: #ecf0f1;
 }
 
-@media handheld and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
-  img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+  img{
     max-width: 100%;
   }
 
