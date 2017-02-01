@@ -10,19 +10,26 @@
   background-color: #ecf0f1;
 }
 
+img{
+  max-width: 100%;
+}
+
 body{
   background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 h1{
   font-size: 8vw;
+  color:white;
 }
 
 #iut{
   background-position: center;
   height: 200px;
-  background-image: url(../images/logo-iut.jpg);
+  background-image: url("../images/logo-iut.jpg");
   background-repeat: no-repeat;
   background-size: 300px;
 
