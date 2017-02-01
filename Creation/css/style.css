@@ -1,0 +1,31 @@
+*{
+  margin:auto;
+}
+
+#header{
+  background-color:#7f8c8d;
+  width: 100%;
+}
+#header img{
+  display: inline-block;
+  margin-left:2%;
+}
+#header nav{
+  position: absolute;
+  top: 10%;
+  left:45%;
+  display: inline-block;
+  list-style-type: none;
+  width: 70%;
+}
+#header ul li{
+  display: inline-block;
+  margin-left: 5%;
+}
+input[type=text]{
+  
+}
+#search .loupe {
+  background:url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+  width:24px;
+}
