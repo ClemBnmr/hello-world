@@ -49,8 +49,13 @@ td{
     max-width: 100%;
   }
 
+  table tr, table td{
+    display: list-item;
+    list-style-type: none;
+  }
+
   table{
-    display: inline-block;
+    width:100%;
   }
 
 }
