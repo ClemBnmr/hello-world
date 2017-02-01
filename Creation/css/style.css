@@ -46,11 +46,11 @@ body{
 }
 
 #banniere{
-  height:500px;
-  width: 70%;
+  height:600px;
+  width: 100%;
   background-image: url("../img/couverture-facebook-bouteille-jack-daniels.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 #produits{
