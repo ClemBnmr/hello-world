@@ -1,6 +1,7 @@
 *{
   margin:auto;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
 }
 
 body{
@@ -43,17 +44,26 @@ header input[type=text]{
 }
 
 #banniere{
-  height:600px;
+  height:650px;
   width: 100%;
-  background-image: url("../img/couverture-facebook-bouteille-jack-daniels.jpg");
+  background-image: url("../img/40bcf93c6b304a1188ddb371c2992ac5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #produits{
-  width: 96%;
+  margin-top: 3%;
+  width: 80%;
+  text-align: center;
+  background-color: #2A2C2F;
+  border: 5px solid #DADADB;
+  padding: 50px;
 }
 #produits h1{
   text-transform: uppercase;
   color: white;
+}
+#produits p{
+  padding-top: 5rem;
+  text-align: justify;
 }
