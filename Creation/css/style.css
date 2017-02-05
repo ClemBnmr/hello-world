@@ -49,21 +49,30 @@ header input[type=text]{
   background-image: url("../img/40bcf93c6b304a1188ddb371c2992ac5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0px 5px 5px #7f8c8d;
+  border-radius: 0px 0px 10px 10px;
 }
 
 #produits{
   margin-top: 3%;
   width: 80%;
-  text-align: center;
   background-color: #2A2C2F;
   border: 5px solid #DADADB;
   padding: 50px;
 }
 #produits h1{
+  text-align: center;
   text-transform: uppercase;
   color: white;
 }
-#produits p{
+.presentation{
   padding-top: 5rem;
   text-align: justify;
+}
+
+#article{
+  text-align: center;
+}
+#article1, #article2, #article3, #article4{
+  display: inline-block;
 }
