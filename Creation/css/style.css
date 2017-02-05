@@ -53,14 +53,14 @@ header input[type=text]{
   border-radius: 0px 0px 10px 10px;
 }
 
-#produits{
+#intro{
   margin-top: 3%;
   width: 80%;
   background-color: #2A2C2F;
   border: 5px solid #DADADB;
   padding: 50px;
 }
-#produits h1{
+#intro h1{
   text-align: center;
   text-transform: uppercase;
   color: white;
@@ -71,8 +71,15 @@ header input[type=text]{
 }
 
 #article{
-  text-align: center;
-}
-#article1, #article2, #article3, #article4{
   display: inline-block;
+  text-align: center;
+  margin-top: 7rem;
+}
+.produit figcaption{
+  width: 80%;
+  text-align: justify;
+}
+.produit figure{
+  width: 25%;
+  float: left;
 }
