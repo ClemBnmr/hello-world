@@ -55,7 +55,7 @@ header input[type=text]{
 
 #intro{
   margin-top: 3%;
-  width: 80%;
+  width: 60%;
   background-color: #2A2C2F;
   border: 5px solid #DADADB;
   padding: 50px;
@@ -75,6 +75,11 @@ header input[type=text]{
   text-align: center;
   margin-top: 7rem;
 }
+figure img{
+  width: 80%;
+  border-radius: 10px;
+  border: 5px solid black;
+}
 .produit figcaption{
   width: 80%;
   text-align: justify;
@@ -82,4 +87,9 @@ header input[type=text]{
 .produit figure{
   width: 25%;
   float: left;
+}
+.produit figure h1{
+  font-size: 180%;
+  width: 90%;
+  margin-bottom: 4rem;
 }
