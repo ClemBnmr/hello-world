@@ -100,3 +100,34 @@ figure img{
   height: 80px;
   margin-bottom: 2rem;
 }
+
+#map, #formulaire{
+  display: inline-block;
+
+  text-align: center;
+}
+#map{
+    border-right: 2px solid white;
+      width: 50%;
+}
+#formulaire{
+  line-height: 60px;
+  text-align: right;
+  padding-left: 10px;
+  width: 45%;
+}
+iframe{
+  max-width: 100%;
+}
+#formulaire form{
+  max-width: 100%;
+}
+#formulaire input[type=text],#formulaire input[type=date]{
+  width: 45%;
+}
+#formulaire input[type=email],#formulaire textarea{
+  width: 100%;
+}
+#formulaire input{
+  color: black;
+}
