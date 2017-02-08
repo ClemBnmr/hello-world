@@ -14,6 +14,7 @@ header{
   width: 100%;
   height: 150px;
   line-height: 150px;
+  border-bottom: 3px solid black;
 }
 header img{
   display: inline-block;
@@ -41,6 +42,7 @@ header form{
 }
 header input[type=text]{
   width: 150px;
+  color: grey;
 }
 
 #banniere{
@@ -54,11 +56,11 @@ header input[type=text]{
 }
 
 #intro{
+  padding-top: 2%;
   margin-top: 3%;
   width: 60%;
   background-color: #2A2C2F;
   border: 5px solid #DADADB;
-  padding: 50px;
 }
 #intro h1{
   text-align: center;
@@ -66,30 +68,35 @@ header input[type=text]{
   color: white;
 }
 .presentation{
-  padding-top: 5rem;
   text-align: justify;
+  padding: 3rem;
 }
 
 #article{
+  width: 100%;
   display: inline-block;
   text-align: center;
-  margin-top: 7rem;
+  padding-top: 2rem;
+  background-color: rgba(52, 73, 94,0.5);
 }
 figure img{
   width: 80%;
   border-radius: 10px;
   border: 5px solid black;
 }
-.produit figcaption{
-  width: 80%;
-  text-align: justify;
-}
 .produit figure{
   width: 25%;
   float: left;
 }
+.produit figcaption{
+  width: 80%;
+  text-align: left;
+  padding-top: 15px;
+}
 .produit figure h1{
-  font-size: 180%;
-  width: 90%;
-  margin-bottom: 4rem;
+  border-bottom: 5px solid black;
+  font-size: 25px;
+  width: 85%;
+  height: 80px;
+  margin-bottom: 2rem;
 }
