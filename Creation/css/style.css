@@ -7,6 +7,10 @@
 body{
   width: 100%;
   background-color: black;
+  background-image: url("../img/wiskey4.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 a{
@@ -27,7 +31,7 @@ h2, h1{
 /***********************/
 
 header{
-  background-color:#2c3e50;
+  background-color: rgba(200,112,38,0.6);
   width: 100%;
   height: 150px;
   line-height: 150px;
@@ -72,7 +76,7 @@ header input[type=text]{
   background-image: url("../img/40bcf93c6b304a1188ddb371c2992ac5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 2px 5px #7f8c8d;
+  box-shadow: 0px 2px 5px #a0591d;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -84,7 +88,7 @@ header input[type=text]{
   padding-top: 2%;
   margin-top: 3%;
   width: 1200px;
-  background-color: #2A2C2F;
+  background-color: rgba(200,112,38,0.6);
   border: 5px solid #DADADB;
 }
 #intro h1{
@@ -144,6 +148,7 @@ figure img{
   width: 100%;
   padding-top : 1rem;
   padding-bottom: 3rem;
+  background-color: rgb(200,112,38)
 }
 #map, #formulaire{
   text-align: center;
