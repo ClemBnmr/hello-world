@@ -10,13 +10,13 @@
     <body>
 
       <header>
-        <img src="img/jacklogo.png" alt="Logo Jack Daniels" width="150px">
+        <a href="#"><img src="img/jacklogo.png" alt="Logo Jack Daniels" width="150px"></a>
 
         <nav>
             <ul>
-              <li>Accueil</li>
-              <li>Histoire</li>
-              <li>Contact</li>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">Histoire</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
 
             <form id="search" method="post">
@@ -81,22 +81,28 @@
                 </div>
             </div>
 
-            <div id="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d421.59286457300186!2d-86.37348766403466!3d35.28744606871406!2m2!1f141.07090380494418!2f44.92941421202812!3m2!1i1024!2i768!4f20!3m3!1m2!1s0x8863d104fe5655af%3A0xace27d9b76efce72!2s182+Lynchburg+Hwy%2C+Lynchburg%2C+TN+37352%2C+%C3%89tats-Unis!5e1!3m2!1sfr!2sfr!4v1486549528397" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div id="extra">
+              <div id="map">
+                <h2>Siege Social</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d421.59286457300186!2d-86.37348766403466!3d35.28744606871406!2m2!1f141.07090380494418!2f44.92941421202812!3m2!1i1024!2i768!4f20!3m3!1m2!1s0x8863d104fe5655af%3A0xace27d9b76efce72!2s182+Lynchburg+Hwy%2C+Lynchburg%2C+TN+37352%2C+%C3%89tats-Unis!5e1!3m2!1sfr!2sfr!4v1486549528397" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+
+              <div id="formulaire">
+                <h2>Contact</h2>
+                <form>
+                  <input type="text" name="prenom" placeholder="Prénom"/>
+                  <input type="text" name="nom" placeholder="Nom"/>
+                  <input type="date" name="dateNais" placeholder="Date de naissance"/>
+                  <input type="text" name="ville" placeholder="Ville de naissance"/>
+                  <input type="email" name="mail" placeholder="Adresse mail"/>
+                  <input type="file" name="photo"/>
+                  <textarea name="mess" rows="5" cols="30"></textarea>
+                  <input type="submit" name="send" value="Envoyer"/>
+                </form>
+              </div>
             </div>
 
-            <div id="formulaire">
-              <form>
-                <input type="text" name="prenom" placeholder="Prénom"/>
-                <input type="text" name="nom" placeholder="Nom"/>
-                <input type="date" name="dateNais" placeholder="Date de naissance"/>
-                <input type="text" name="ville" placeholder="Ville de naissance"/>
-                <input type="email" name="mail" placeholder="Adresse mail"/>
-                <input type="file" name="photo"/>
-                <textarea name="mess" rows="2" cols="30"></textarea>
-                <input type="submit" name="send" value="Envoyer"/>
-              </form>
-            </div>
+            <footer>Benmaamar Clément - TPB</footer>
 
             </div>
 

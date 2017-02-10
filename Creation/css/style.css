@@ -9,6 +9,23 @@ body{
   background-color: black;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(52, 152, 219,1.0);
+}
+
+h2, h1{
+  color: #f5f5dc;
+}
+
+
+/***********************/
+/*ENTETE : MENU ET LOGO*/
+/***********************/
+
 header{
   background-color:#2c3e50;
   width: 100%;
@@ -45,44 +62,58 @@ header input[type=text]{
   color: grey;
 }
 
+/**********/
+/*BANNIERE*/
+/**********/
+
 #banniere{
   height:650px;
   width: 100%;
   background-image: url("../img/40bcf93c6b304a1188ddb371c2992ac5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 5px 5px #7f8c8d;
+  box-shadow: 0px 2px 5px #7f8c8d;
   border-radius: 0px 0px 10px 10px;
 }
+
+/************************************/
+/*PREMIER PARAGRAPHE DE PRESENTATION*/
+/************************************/
 
 #intro{
   padding-top: 2%;
   margin-top: 3%;
-  width: 60%;
+  width: 1200px;
   background-color: #2A2C2F;
   border: 5px solid #DADADB;
 }
 #intro h1{
   text-align: center;
   text-transform: uppercase;
-  color: white;
 }
 .presentation{
   text-align: justify;
   padding: 3rem;
 }
 
+/********************/
+/*LISTE DES PRODUITS*/
+/********************/
+
 #article{
   width: 100%;
   display: inline-block;
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: rgba(52, 73, 94,0.5);
+  border-radius: 5px;
 }
 figure img{
   width: 80%;
   border-radius: 10px;
   border: 5px solid black;
+  box-shadow: 0 0 1em black;
 }
 .produit figure{
   width: 25%;
@@ -91,43 +122,70 @@ figure img{
 .produit figcaption{
   width: 80%;
   text-align: left;
-  padding-top: 15px;
+  padding: 5px;
+  background-color: rgba(149, 165, 166,0.5);
+  border: 2px solid white;
+  box-shadow: 0 0 2em black;
 }
 .produit figure h1{
-  border-bottom: 5px solid black;
+  /*border-bottom: 5px solid black;*/
   font-size: 25px;
   width: 85%;
   height: 80px;
   margin-bottom: 2rem;
 }
 
-#map, #formulaire{
-  display: inline-block;
+/********************/
+/*MAPS ET FORMULAIRE*/
+/********************/
 
+#extra{
+  display: inline-block;
+  width: 100%;
+  padding-top : 1rem;
+  padding-bottom: 3rem;
+}
+#map, #formulaire{
   text-align: center;
+  float: left;
+  width: 599px;
+  line-height: 40px;
+}
+#map h2,#formulaire h2{
+  text-align: center;
+  padding-bottom: 30px;
 }
 #map{
-    border-right: 2px solid white;
-      width: 50%;
-}
-#formulaire{
-  line-height: 60px;
-  text-align: right;
-  padding-left: 10px;
-  width: 45%;
+  border-right: 1px solid black;
 }
 iframe{
-  max-width: 100%;
+  max-width: 90%;
+  box-shadow: 0 0 1em black;
+}
+#formulaire{
+  text-align: left;
 }
 #formulaire form{
-  max-width: 100%;
+  width: 90%;
 }
 #formulaire input[type=text],#formulaire input[type=date]{
   width: 45%;
 }
 #formulaire input[type=email],#formulaire textarea{
-  width: 100%;
+  width: 90%;
 }
 #formulaire input{
   color: black;
+}
+
+/********/
+/*FOOTER*/
+/********/
+
+footer{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: rgba(52, 73, 94,0.5);
+  border-radius: 5px;
 }
