@@ -2,6 +2,7 @@
   margin:auto;
   font-family: Arial, Helvetica, sans-serif;
   color:white;
+  box-sizing: border-box;
 }
 
 body{
@@ -18,7 +19,7 @@ a{
 }
 
 a:hover{
-  color: rgba(52, 152, 219,1.0);
+  color: #708090;
 }
 
 h2, h1{
@@ -47,18 +48,22 @@ header nav{
   list-style-type: none;
   float: right;
 }
-header ul li{
+#liste{
+  float: left;
+}
+#liste ul li{
   display: inline-block;
   font-family: Avantgarde, sans-serif;
   color: #bdc3c7;
   margin-left: 5rem;
 }
-header ul{
-  float: left;
+#liste ul{
   margin-right: 10rem;
 }
-header form{
+#bar{
   float: right;
+}
+#bar form{
   margin-right: 5rem;
 }
 header input[type=text]{
@@ -89,7 +94,7 @@ header input[type=text]{
   margin-top: 3%;
   width: 1200px;
   background-color: rgba(200,112,38,0.6);
-  border: 5px solid #DADADB;
+  border: 2px solid #DADADB;
 }
 #intro h1{
   text-align: center;
@@ -153,7 +158,7 @@ figure img{
 #map, #formulaire{
   text-align: center;
   float: left;
-  width: 599px;
+  width: 50%;
   line-height: 40px;
 }
 #map h2,#formulaire h2{
@@ -166,9 +171,6 @@ figure img{
 iframe{
   max-width: 90%;
   box-shadow: 0 0 1em black;
-}
-#formulaire{
-  text-align: left;
 }
 #formulaire form{
   width: 90%;
@@ -193,4 +195,82 @@ footer{
   padding-bottom: 20px;
   background-color: rgba(52, 73, 94,0.5);
   border-radius: 5px;
+}
+
+/*********************/
+/**VERSION TABLETTE**/
+/*********************/
+
+@media only screen and (max-width : 1024px) {
+
+  /***********************/
+  /*ENTETE : MENU ET LOGO*/
+  /***********************/
+
+  header{
+    height: 200px;
+    line-height: 30px;
+  }
+  .logo{
+    display: block;
+    float: none;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  header nav{
+    float: none;
+    height: 50px;
+    width: 100%;
+  }
+  #liste{
+    width: 50%;
+    float: left;
+    text-align: right;
+  }
+  #bar{
+    width: 50%;
+  }
+  header img{
+    float: none;
+  }
+  #liste ul li{
+    margin-left: 20px;
+  }
+  #liste ul{
+    padding: 0;
+    margin-right: auto;
+    margin-left: 0px;
+  }
+  #bar form{
+    padding-left: 50px;
+  }
+
+  /*******/
+  /*INTRO*/
+  /*******/
+
+  #intro{
+    width:100%;
+    border: none;
+    border-top: 3px solid white;
+    margin-top: 0;
+  }
+
+  /*********/
+  /*ARTICLE*/
+  /*********/
+
+  .produit figure{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+}
+
+/**********************/
+/****VERSION MOBILE****/
+/**********************/
+
+@media only screen and (max-width : 470px) {
+
 }
