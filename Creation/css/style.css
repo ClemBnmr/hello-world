@@ -81,7 +81,7 @@ header input[type=text]{
   background-image: url("../img/40bcf93c6b304a1188ddb371c2992ac5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 2px 5px #a0591d;
+  box-shadow: 0px 2px 5px white;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -103,6 +103,20 @@ header input[type=text]{
 .presentation{
   text-align: justify;
   padding: 3rem;
+}
+
+#epaves a{
+  color: orange;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+img#egg{
+  display: none;
+  margin-top: 10px;
+  padding: 0rem;
+  width: 100%;
+  box-shadow: 0 0 1em black;
 }
 
 /********************/
