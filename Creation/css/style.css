@@ -273,4 +273,62 @@ footer{
 
 @media only screen and (max-width : 470px) {
 
+/*****************/
+/******ENTETE*****/
+/*****************/
+
+  header{
+    height: 250px;
+  }
+
+  form#search{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #bar{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  header input[type="text"]{
+    width: 70%;
+  }
+
+  #liste{
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  #liste ul{
+    margin: auto;
+    padding: 0;
+    margin-left: -20px;
+  }
+
+/*******************/
+/******ARTICLE******/
+/*******************/
+
+  .produit figure{
+    width: 100%;
+  }
+
+/*******************/
+/*******************/
+/*********EXTRA*****/
+
+  #map, #formulaire{
+    float: none;
+    width: 100%;
+  }
+
+  #formulaire form{
+    width: 100%;
+  }
+
 }
