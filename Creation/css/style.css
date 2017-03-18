@@ -31,6 +31,10 @@ h2, h1{
 /*ENTETE : MENU ET LOGO*/
 /***********************/
 
+#hamburger{
+  display:none;
+}
+
 header{
   background-color: rgba(200,112,38,0.6);
   width: 100%;
@@ -287,12 +291,27 @@ footer{
 
 @media only screen and (max-width : 470px) {
 
+
+/**********/
+/*BANNIERE*/
+/**********/
+
+  #banniere{
+    height:450px;
+  }
+
 /*****************/
 /******ENTETE*****/
 /*****************/
 
+  #hamburger{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+  }
+
   header{
-    height: 250px;
+    height: 275px;
   }
 
   form#search{
@@ -302,6 +321,7 @@ footer{
   }
 
   #bar{
+    display: none;
     float: none;
     width: 100%;
     text-align: center;
@@ -312,7 +332,7 @@ footer{
   }
 
   #liste{
-    display: block;
+    display: none;
     float: none;
     width: 100%;
     text-align: center;
